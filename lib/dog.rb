@@ -20,12 +20,15 @@ def self.print_all
 end
 
 def self.clear_all
-  @all.clear
+  @@all.clear
 end
 
 def save
   @@all<< self
   end
 
+def clear
+  @@all.clear
+end
 
 end
